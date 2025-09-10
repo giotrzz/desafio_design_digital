@@ -1,0 +1,79 @@
+body {
+    border: 2px solid;
+    max-width: 80%;
+    margin: 20px auto;
+}
+main img {
+    display: block;
+    margin: 20px auto;  
+    max-width: 100%;     
+    height: auto;        
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid;
+    padding: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border: 2px solid;
+    padding: 10px;
+}
+
+.flex-container img {
+    height: 60px;  
+}
+.flex-container nav a {
+    margin-left: 20px;   
+    text-decoration: none;  
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+article, section > p, h1{
+    text-align: justify;
+    padding: 0 15px;
+}
+#capa{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 8px 0 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background: #0b6ef6;
+    border: none;
+    font-weight: bold;
+}

@@ -1,29 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contato - UNES</title>
 </head>
 <body>
     <header class="flex-container">
-        
-         <img src="images/logo.png" alt="logo">
-    
-    <nav>
-         <a href="home.html">Home</a>
-         <a href="sobre.html">Sobre</a>
-    </nav>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="contato.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+        </nav>
     </header>
-<h2>Entre em contato</h2>
-<p>sfko g fdsg fkdhgdh sloe gvfh</p>
-<label for="email">Digite seu email:</label>
-<input type="text" name="email" placeholder="">
-<label for="assunto">Assunto:</label>
-<input type="text" name="assunto" placeholder="">
-<label for="descricao">Descrição:</label>
-<textarea id="descricao" name="descricao" rows="5" cols="50" placeholder=""></textarea><br><br>
-<button>Enviar</button>
+
+    <main>
+        <section class="contact-section">
+            <h2>Entre em contato</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur facilis inventore praesentium placeat.</p>
+            
+            <form class="contact-form">
+                <label for="email">Digite seu email:</label>
+                <input type="email" id="email" name="email" placeholder=" ">
+
+                <label for="assunto">Assunto:</label>
+                <input type="text" id="assunto" name="assunto" placeholder=" ">
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="5" placeholder=" "></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h3>Todos os direitos reservados</h3>
+    </footer>
 </body>
 </html>
